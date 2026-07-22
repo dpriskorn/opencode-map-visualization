@@ -1,0 +1,20 @@
+{
+  "name": "opencode-map-browser",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./dist/plugin.js",
+  "types": "./dist/plugin.d.ts",
+  "bin": {
+    "opencode-map-browser": "./dist/plugin.js"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@opencode-ai/plugin": "^1.0.0",
+    "@opencode-map/core": "*"
+  },
+  "installConfig": {
+    "hoistingLimits": "workspaces"
+  }
+}
